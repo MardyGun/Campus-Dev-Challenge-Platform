@@ -1,0 +1,35 @@
+{
+  "name": "dcc_21_days_dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "bash ./generate_rsa_keys.sh && node index.js",
+    "dev": "bash ./generate_rsa_keys.sh && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2058govindsingh/dcc_21_days_web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2058govindsingh/dcc_21_days_web/issues"
+  },
+  "homepage": "https://github.com/2058govindsingh/dcc_21_days_web#readme",
+  "type": "module",
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "better-sqlite3": "^9.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "node-cron": "^3.0.3",
+    "uuid": "^9.0.1",
+    "webdav": "^5.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
